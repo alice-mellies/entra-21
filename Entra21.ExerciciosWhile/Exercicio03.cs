@@ -4,21 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entra21.ExerciciosWhileS
+namespace Entra21.ExerciciosWhile
 {
     internal class Exercicio03
     {
         public void Executar()
         {
             int idade = 128;
+            int idadeUsuario = 0;
 
-            while (idade >= 128)
+            while (idade >= idadeUsuario)
+              
             {
                 Console.WriteLine("Digite sua idade: ");
-                int minhaIdade = Convert.ToInt32(Console.ReadLine());
+                idadeUsuario = Convert.ToInt32(Console.ReadLine());
 
-                idade = idade + 1;
-            }
+              
+            }   
         }
     }
 }

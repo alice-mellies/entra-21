@@ -10,12 +10,13 @@ namespace Entra21.ExerciciosWhile
     {
         public void Executar()
         {
-            int opcao = 5;
+            int opcao = 0;
 
             while(opcao >= 5)
             {
                 Console.WriteLine("Digite um número: ");
                 int numero1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Digite outro número: ");
                 Console.WriteLine("Digite outro número: ");
                 int numero2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(@"1 - SOMAR
