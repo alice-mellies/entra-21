@@ -9,7 +9,7 @@ Console.WriteLine(@"---------MENU--------
 6 - Exemplo 06
 7 - Exemplo 07");
 
-Console.WriteLine("Difite a opão desejada: ");
+Console.WriteLine("Digite a opão desejada: ");
 int opcaoDesejada = Convert.ToInt32(Console.ReadLine());
 
 if (opcaoDesejada == 1)

@@ -18,7 +18,7 @@ namespace Entra21.ExemplosWhile
                 int Numero = Convert.ToInt32(
                     Console.ReadLine());
 
-                indice = indice + 1;
+                indice = indice + 1; 
             }
         }
     }
