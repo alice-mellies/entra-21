@@ -10,47 +10,19 @@ namespace Entra21.ExerciciosWhile
     {
         public void Executar()
         {
-            int opcao = 0;
+            double peso = 0;
+            int contador = 0;
 
-            while(opcao >= 5)
+            while ((peso >= 0) && (peso <= 300)) 
             {
-                Console.WriteLine("Digite um número: ");
-                int numero1 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Digite outro número: ");
-                Console.WriteLine("Digite outro número: ");
-                int numero2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(@"1 - SOMAR
-2 - SUBTRAIR
-3 - MULTIPLICAR
-4 - DIVIDIR
-5 - SAIR");
-                Console.WriteLine("Escolha uma opção do menu acima ");
-                int opçaoMenu = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Digite seu peso: ");
+                peso = Convert.ToDouble(Console.ReadLine());
 
-				if (opçaoMenu == 1)
-				{
-					Console.WriteLine("A soma dos numeros é: " + (numero1 + numero2));
+                contador = contador + 1;
 
-				}
-				else if (opçaoMenu == 2)
-				{
-					Console.WriteLine("A subtração dos numeros é: " + (numero1 - numero2));
-				}
-				else if (opçaoMenu == 3)
-				{
-					Console.WriteLine("A multiplicação dos numeros é: " + (numero1 * numero2));
-				}
-				else if (opçaoMenu == 4)
-				{
-					Console.WriteLine("A divisão dos numeros é: " + (numero1 / numero2));
-				}
-				
-				opcao = opcao + 1;
-			}
-		}
+            }
+            Console.WriteLine("A quantidade de pessoas que informaram seu peso é: " + contador);
 
-
-	}
+        }
+    }
 }
-    
-
