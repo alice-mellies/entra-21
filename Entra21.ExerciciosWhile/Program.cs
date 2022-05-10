@@ -34,4 +34,16 @@ if (opcaoDesejada == 4)
     Exercicio04 exercicio4 = new Exercicio04();
     exercicio4.Executar();
 }
+if (opcaoDesejada == 5)
+{
+    Exercicio05 exercicio5 = new Exercicio05();
+    exercicio5.Executar();
+}
+if (opcaoDesejada == 6)
+{
+    Exercicio06 exercicio6 = new Exercicio06();
+    exercicio6.Executar();
+}
+
+
 
